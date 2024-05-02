@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Services We Provide:</title>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand">Uni-Sync</a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#Back to Homepage" class="nav-link"><a href = "homepage.html">Back to Homepage</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+  <div style="background-color: rgb(30, 31, 33); color: #fff; padding: 7% 17%;" >
+    <h1 style="color: rgb(255, 251, 252);" class="mb-4">Discussion Forum</h1>
+    <p>This is a sample discussion forum where students can ask or get suggestions about the problems 
+       that they are facing and hopefully, mentors and other peers who are wary about the problem will
+       reply to them. There will also be a reply button and a seperate list of discussion forum posts in
+       the future. 
+    
+    <form>
+        <div class="mb-4">
+            <label for="topic" class="form-label">Your Problem</label>
+            <input type="text" class="form-control" id="topic" name="topic" required>
+        </div>
+        <div class="mb-4">
+            <label for="details" class="form-label">Details of the Problem</label>
+            <textarea class="form-control" id="details" name="details" rows="5" required></textarea>
+        </div>
+        <div class="mb-4">
+            <label for="email" class="form-label">Your school email</label>
+            <input type="text" class="form-control" id="identity" name="email" placeholder="@fisk.edu or @tsu.edu">
+        </div>
+        <div class="mb-4">
+            <button type="submit" style="background-color: rgb(9, 9, 138); color: rgb(251, 252, 253); font-weight: bold;font-size: 20px;" class="btn"><a href = "thankyou.html">Submit</a></button>
+        </div>
+    </form>
+    </div>
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Designed for GIR Hackathon 2023</p>
+        </div>
+      </footer>
+  
+</body>
+</html>
